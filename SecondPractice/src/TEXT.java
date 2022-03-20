@@ -18,7 +18,7 @@ class intArray{
     }
 }
 public class TEXT {
-    public static void main(String args[]){
+    public static void main8(String args[]){
         int score[][]={{10,3},{-1,119,-51},{100,56,90,49}};
         for(int i=0;i<score.length;i++){
             for(int j=0;j<score[i].length;j++){
@@ -132,21 +132,16 @@ public class TEXT {
            }
        }
     }
-    public static int maxInt1(int x, int y){
+    public static int max(int x, int y){
         return x>y?x:y;
     }
-    public static double maxDouble(double x, double y){
+    public static double max(double x, double y){
         return x>y?x:y;
     }
-    public static int maxInt2(int x, int y,int z){
-        if(x>z){
-            return x>y?x:y;
-        }
-        else{
-            return z>y?z:y;
-        }
+    public static int max(int x, int y,int z){
+        return max(max(x,y),z);
     }
-    public static void main1(String[] args) {
-        System.out.println(maxInt1(1,2)+" "+maxInt2(1,2,3)+" "+maxDouble(1.0,2.0));
+    public static void main(String[] args) {
+        System.out.println(max(1,2)+" "+max(1,2,3)+" "+max(1.0,2.0));
     }
 }
