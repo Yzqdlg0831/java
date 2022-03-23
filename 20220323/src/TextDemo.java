@@ -1,6 +1,17 @@
 import java.util.Arrays;
 
 public class TextDemo {
+    //1304. 和为零的N个唯一整数
+    public static int[] sumZero(int n) {
+        int[] rt=new int[n];
+        int x=1;
+        for(int i=1;i<rt.length;i+=2){
+            rt[i-1]=x;
+            rt[i]=-x;
+            x++;
+        }
+        return rt;
+    }
     /**
      * @param nums 一组非负整数
      * @return - String.compareTo() 是按照 lexicographically, 字典顺序排列的
@@ -43,5 +54,6 @@ public class TextDemo {
     public static void main(String[] args) {
         int[] arr = {1,52,6,3,9,65,46,90};
         System.out.println(largestNumber(arr));
+        System.out.println(Arrays.toString(sumZero(10)));
     }
 }
