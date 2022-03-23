@@ -55,5 +55,6 @@ public class TextDemo {
         int[] arr = {1,52,6,3,9,65,46,90};
         System.out.println(largestNumber(arr));
         System.out.println(Arrays.toString(sumZero(10)));
+        System.out.println();
     }
 }
