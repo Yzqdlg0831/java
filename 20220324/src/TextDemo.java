@@ -9,7 +9,7 @@ class Animal{
         return name;
     }
 
-    private void eat(){
+    public void eat(){
         System.out.println(name+"Animal");
     }
 }
@@ -28,7 +28,7 @@ class Cat extends Animal{
         this.name = name;
     }
 
-     private void eat(){
+     public void eat(){
         System.out.println(name+"Cat");
     }
 }
