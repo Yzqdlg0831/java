@@ -1,4 +1,4 @@
-import com.whpu.cwb.*;
+import book.Text;
 
 import java.util.Random;
 import java.util.Scanner;

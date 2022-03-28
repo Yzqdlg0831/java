@@ -1,4 +1,4 @@
-package com.whpu.cwb;
+package book;
 
 public class Rational {
     private long numerator;

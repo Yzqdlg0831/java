@@ -1,4 +1,4 @@
-package com.whpu.cwb;
+package book;
 
 public class Text {
     public static void sort(int[] temp){                  //数组排序

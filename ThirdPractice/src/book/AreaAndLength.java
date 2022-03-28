@@ -1,4 +1,4 @@
-package com.whpu.cwb;
+package book;
 class Trangle
 {
     double sideA,sideB,sideC,area,length;

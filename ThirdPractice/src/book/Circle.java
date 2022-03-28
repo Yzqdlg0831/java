@@ -1,4 +1,4 @@
-package com.whpu.cwb;
+package book;
 import java.lang.Math;
 
 public class Circle{
