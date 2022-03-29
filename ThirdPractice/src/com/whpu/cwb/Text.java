@@ -2,7 +2,7 @@ package com.whpu.cwb;
 
 public class Text {
 
-    public static void main2(String[] args) {
+    public static void main(String[] args) {
         Rational r1 = new Rational(2,1);
         Rational r2 = new Rational(2,3);
         System.out.println(r1.toString()+" + "+r2.toString()+" = "+(r1.add(r2)).toString());//加
@@ -14,7 +14,7 @@ public class Text {
         System.out.println("第"+ c.getN()+"个园的半径："+c.getRadius());
         System.out.println("第"+ c.getN()+"个园的面积："+c.area());
     }
-    public static void main(String[] args) {
+    public static void main1(String[] args) {
         Circle c1 = new Circle(2);
         Circle c2 = new Circle(4);
         Circle c3 = new Circle(5);
