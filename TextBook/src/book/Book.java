@@ -16,12 +16,8 @@ public class Book {
 
     @Override
     public String toString() {
-       String boo = "未借出";
-        if(this.borrowed){
-            boo = "借出";
-        }
         return "图书：" + this.name +"  作者：" + this.author + "  售价："
-                + this.price + "  图书类型：" + this.type + "  是否借出：" + boo;
+                + this.price + "  图书类型：" + this.type + "  状态：" + this.isBorrowed();
     }
 
     public String getName() {
@@ -56,8 +52,8 @@ public class Book {
         this.type = type;
     }
 
-    public boolean isBorrowed() {
-        return borrowed;
+    public String isBorrowed() {
+        return this.borrowed?"借出":"未借出";
     }
 
     public void setBorrowed(boolean borrowed) {

@@ -16,6 +16,7 @@ public class TextMain {
         }
         return new NormalUser(name);
     }
+    @SuppressWarnings("InfiniteLoopStatement")
     public static void main(String[] args) {
         // 1. 准备基本的数据
         BookList bookList = new BookList();
