@@ -17,6 +17,8 @@ public class BorrowOperation implements IOperation{
         for (; i<bookList.getSize();i++) {
             if (Objects.equals(bookList.getBooks(i).getName(), name)){
                 bookList.getBooks(i).setBorrowed(true);
+                System.out.println("借阅成功！");
+                System.out.println(bookList.getBooks(i));
                 break;
             }
         }

@@ -21,6 +21,9 @@ public class AddOperation implements IOperation {
         Book book = new Book(name,author,price,type);
         bookList.setBooks(bookList.getSize(), book);
         bookList.setSize(bookList.getSize()+1);
+        System.out.println("新增成功！");
+        System.out.println(bookList.getBooks(bookList.getSize()-1));
+
     }
 
 

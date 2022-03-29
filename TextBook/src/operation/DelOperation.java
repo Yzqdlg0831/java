@@ -20,6 +20,7 @@ public class DelOperation implements IOperation{
                     bookList.setBooks(j,bookList.getBooks(j+1));
                 }
                 bookList.setBooks(bookList.getSize() - 1,null);
+                System.out.println("删除成功！");
                 break;
             }
         }
