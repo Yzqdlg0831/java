@@ -25,6 +25,7 @@
       <module fileurl="file://$PROJECT_DIR$/SixthPractice/SixthPractice.iml" filepath="$PROJECT_DIR$/SixthPractice/SixthPractice.iml" />
       <module fileurl="file://$PROJECT_DIR$/TextBook/TextBook.iml" filepath="$PROJECT_DIR$/TextBook/TextBook.iml" />
       <module fileurl="file://$PROJECT_DIR$/ThirdPractice/ThirdPractice.iml" filepath="$PROJECT_DIR$/ThirdPractice/ThirdPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ftp.iml" filepath="$PROJECT_DIR$/ftp.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java.iml" filepath="$PROJECT_DIR$/.idea/java.iml" />
     </modules>
   </component>

@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Testq {
     public static void main(String[] args) {
         int[] a = new int[]{2,4,6,8};
